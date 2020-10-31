@@ -19,6 +19,5 @@ end
 def return_string_array(array)
   new_array = []
   array.each {|number|new_array << number.to_s}
-  end
   new_array
 end
